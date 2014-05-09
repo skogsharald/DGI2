@@ -173,7 +173,7 @@ vec3 DirectLight( const Intersection& i ){
 		}
 	}
     // Get the direction that the light travels.
-    vec3 dir = glm::normalize(i.position - lightPos);
+    // vec3 dir = glm::normalize(i.position - lightPos);
 
 
 	float dot_product = glm::dot(r_hatt, n_hatt);
